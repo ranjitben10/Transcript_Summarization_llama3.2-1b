@@ -1,0 +1,8 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore experimental code directory
+experiment_code/
+
+# Ignore Python cache files
+__pycache__/

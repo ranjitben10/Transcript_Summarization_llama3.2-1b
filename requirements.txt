@@ -1,0 +1,11 @@
+fastapi
+ollama
+pydantic
+uvicorn
+psutil
+requests
+langchain
+langchain_community
+asyncio
+langchain_ollama
+python-dotenv
