@@ -17,8 +17,8 @@ system_prompt = os.getenv('SYSTEM_PROMPT')
 prompt_ = os.getenv('PROMPT')
 recursive_system_prompt = os.getenv('RECURSIVE_SYSTEM_PROMPT')
 
-#pull the model
-ollama.pull(model)
+#pull the model uncomment it if you have gpu
+# ollama.pull(model)
 
 #create fastai object
 app = FastAPI()
