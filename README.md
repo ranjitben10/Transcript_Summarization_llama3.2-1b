@@ -2,6 +2,10 @@
 Text summarizer using Ollama's llama3.2:1b model.
 Note: Due to system resource constraint the mentioned model is in use, however please do change the model name in .env file and dockerfile according to your usage.
 
+# Requirements:
+1.Ollama should be installed and up and running.
+2.specified model should be downloaded using ollama pull.
+
 # Running Locally
 ```
 Create virtual env : python -m venv venv
